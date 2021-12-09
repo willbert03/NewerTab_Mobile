@@ -1,0 +1,30 @@
+{
+    "name": "NewerTab",
+    "description": "Overrides the new tab page",
+    "version": "1.0",
+    "incognito": "split",
+    "icons": { "16": "assets/icons/favicon.svg"},
+  }
+},
+"default_icon": {
+  "16": "assets\icons\logo\favicon_Custom (16x16).png",
+  "32": "assets\icons\logo\favicon_Custom (32x32).png",
+  "48": "assets\icons\logo\favicon_Custom (48x48).png",
+  "128": "assets\icons\logo\favicon_Custom (128x128).png"
+}
+},
+"icons": {
+  "16": "assets\icons\logo\favicon_Custom (16x16).png",
+  "32": "assets\icons\logo\favicon_Custom (32x32).png",
+  "48": "assets\icons\logo\favicon_Custom (48x48).png",
+  "128": "assets\icons\logo\favicon_Custom (128x128).png"
+}
+}
+    "chrome_url_overrides": {
+      "newtab": "index.html"
+    },
+    "manifest_version": 2
+    "background": {
+      "service_worker": "assets/js/feather.min.js"
+    }
+  }
